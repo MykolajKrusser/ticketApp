@@ -18,7 +18,7 @@ export class RegisterComponent implements OnInit {
           res =>{console.log(res)},
           err =>{console.log(err)},
         )
-        
+        this.registerUserData
         
   }
 }
