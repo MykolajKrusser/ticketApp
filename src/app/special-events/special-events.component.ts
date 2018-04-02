@@ -17,5 +17,4 @@ export class SpecialEventsComponent implements OnInit {
       err => console.log(err)
     )
   }
-
 }
