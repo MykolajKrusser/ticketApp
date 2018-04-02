@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {AuthService} from '../auth.service'
+import {AuthService} from '../auth.service';
 
 @Component({
   selector: 'app-register',
@@ -19,6 +19,5 @@ export class RegisterComponent implements OnInit {
           err =>{console.log(err)},
         )
         this.registerUserData
-        
   }
 }
